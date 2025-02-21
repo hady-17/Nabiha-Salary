@@ -10,3 +10,13 @@ def manage_finances():
         "rent_percent": float(input("Enter the percentage for rent: ")),
         "electricity_percent": float(input("Enter the percentage for electricity: "))
     }
+    salary=finance_data[month]["salary"]
+    savingPercent=finance_data[month]["savings_percent"]
+    rentPercent=finance_data[month]["rent_percent"]
+    electricity=finance_data[month]["electricity_percent"]
+
+
+
+
+# Run the function
+manage_finances()
